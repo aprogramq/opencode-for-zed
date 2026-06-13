@@ -21,6 +21,10 @@ Install opencode ACP in Zed.
 
 </br>Clone this repo and run the following commands:
 ```bash
+cd packages/opencode
+```
+
+```bash
 bun install
 ```
 
@@ -32,7 +36,7 @@ bun run build
 </br>Then go to the dist folder, choose your architecture, and create a symlink for Zed:
 
 ```bash
-sudo ln -s (your-project-location)/dist/(your-architecture)/opencode \
+sudo ln -s (your-project-location)/packages/opencode/dist/(your-architecture)/opencode \
  ~/.local/share/zed/external_agents/registry/opencode/(your-installed-version)/
 ```
 
